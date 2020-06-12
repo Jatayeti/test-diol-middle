@@ -1,0 +1,53 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html, body {
+    height: 100%;
+}
+
+body {
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1 0 auto;
+}
+
+.alert {
+    max-width: 20rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.card {
+    margin: 0 0 2rem 0;
+}
+
+.sort {
+    padding: .5rem 1rem;
+    margin: 0 0 .5rem 0;
+    background: #fff;
+}
+
+footer {
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    flex-shrink: 0;
+}
